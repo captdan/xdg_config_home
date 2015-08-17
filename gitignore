@@ -19,3 +19,5 @@ vim/vimrc
 vim/vimrc.bundles
 vim/viminfo
 dircolors
+anyconnect
+subversion
