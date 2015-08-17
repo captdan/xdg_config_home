@@ -1,0 +1,43 @@
+set shell=bash
+set t_Co=256
+
+" keyboard shortcuts
+inoremap jj <ESC>
+nnoremap j t
+nnoremap t j
+
+" gui settings
+if (&t_Co == 256 || has('gui_running'))
+  if ($TERM_PROGRAM == 'iTerm.app')
+    set background=dark
+  elseif (has('gui_running'))
+    set background=light
+  endif
+
+  colorscheme smyck
+endif
+
+" Disambiguate ,a & ,t from the Align plugin, making them fast again.
+"
+" This section is here to prevent AlignMaps from adding a bunch of mappings
+" that interfere with the very-common ,a and ,t mappings. This will get run
+" at every startup to remove the AlignMaps for the *next* vim startup.
+"
+" If you do want the AlignMaps mappings, remove this section, remove
+" ~/.vim/bundle/Align, and re-run rake in maximum-awesome.
+function! s:RemoveConflictingAlignMaps()
+  if exists("g:loaded_AlignMapsPlugin")
+    AlignMapsClean
+  endif
+endfunction
+command! -nargs=0 RemoveConflictingAlignMaps call s:RemoveConflictingAlignMaps()
+silent! autocmd VimEnter * RemoveConflictingAlignMaps
+
+" configure unknown filetypes
+" .logcat-config is python
+autocmd BufRead,BufNewFile *.logcat-config set filetype=python
+
+let g:zv_zeal_directory = "/usr/local/bin/zeal"
+let g:zv_added_files_type = {
+  \ 'java' : 'Java_SE8',
+  \ }

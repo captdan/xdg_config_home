@@ -1,0 +1,40 @@
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = auto
+
+[alias]
+  amend = commit --amend --no-edit
+  ammend = amend
+  st = status
+  co = checkout
+
+  files = show --oneline
+  graph = log --graph --decorate --all
+  sync = pull --rebase
+  unadd = reset --
+  unedit = checkout --
+  unstage = reset HEAD
+  unrm = checkout --
+  unstash = stash pop
+  dag = log --branches --remotes --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+
+[push]
+  default = tracking
+[receive]
+  denyCurrentBranch = warn
+[core]
+  pager = less -R
+  editor = /usr/bin/vim
+[filter "media"]
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+
+[include]
+  path = ~/.config/git/work_config
+
+[branch]
+  autosetuprebase = always
