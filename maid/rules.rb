@@ -9,6 +9,14 @@
 # * Ask me a question over email (hello@benjaminoakes.com) or Twitter (@benjaminoakes)
 # * Check out how others are using Maid in [the Maid wiki](https://github.com/benjaminoakes/maid/wiki)
 Maid.rules do
+  rule 'Updating Gems' do
+    `gem update`
+  end
+
+  rule 'Cleaning Gems' do 
+    `gem cleanup`
+  end
+
   rule 'Updating Brew' do
     `brew update --rebase >> ~/.local/share/brew/brew.log`
   end
