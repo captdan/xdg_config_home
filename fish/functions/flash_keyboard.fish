@@ -1,5 +1,5 @@
 function flash_keyboard
-	set board_config_dir $CONFIG_DIR/$argv[1]
+	set board_config_dir $XDG_CONFIG_HOME/$argv[1]
     set tmk_dir /usr/local/opt/tmk_keyboard/keyboard/$argv[1]
 
     pushd $tmk_dir
