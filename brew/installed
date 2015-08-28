@@ -61,6 +61,7 @@ ncurses
 neovim
 nettle
 node
+nvm
 offline-imap
 oniguruma
 openssl
@@ -69,6 +70,7 @@ pcre
 perforce
 pidcat
 pigz
+pipes-sh
 pkg-config
 pup
 pyenv
