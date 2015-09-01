@@ -1,0 +1,1 @@
+test available iterm2_fish_prompt

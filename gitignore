@@ -1,11 +1,13 @@
 .gitwork
 eink
+
 fish/fish_history
 fish/fish_read_history
 fish/fishd.685b35aa345a
 fish/functions/work/
-fish/private_config.fish
-fish/work_config.fish
+private_config.fish
+work_config.fish
+
 git/work_config
 
 *.pyc
@@ -18,7 +20,7 @@ vim/vim
 vim/vimrc
 vim/vimrc.bundles
 vim/viminfo
-dircolors
+dir.colors
 anyconnect
 subversion
 brazil
