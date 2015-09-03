@@ -28,3 +28,7 @@ theme toaster
 theme syl20bnr
 theme fox
 package iterm2
+package dircolors
+theme taktoa
+package xdg
+package localhost
