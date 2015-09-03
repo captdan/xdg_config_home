@@ -9,8 +9,8 @@ set -g OMF_CONFIG $HOME/.config/omf
 # For common configurations, we advise you to add them to your $OMF_CONFIG/init.fish file or
 # to create a custom plugin instead.
 set GEM_ROOT ~/.local/share/gem
-set -gx PYENV_ROOT ~/.local/share/pyenv
-set -x RBENV_ROOT ~/.local/share/rbenv
+set -x PYENV_ROOT /usr/local/var/pyenv
+set -x RBENV_ROOT /usr/local/var/rbenv
 
 # Load oh-my-fish configuration.
 source $OMF_PATH/init.fish
