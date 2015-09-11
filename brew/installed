@@ -21,6 +21,7 @@ doxygen
 exiftool
 faac
 fasd
+fetchmail
 ffmpeg
 fish
 fortune
@@ -114,6 +115,7 @@ texi2html
 the_silver_searcher
 thefuck
 tmux
+unison
 w3m
 watch
 wget
