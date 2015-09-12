@@ -1,5 +1,6 @@
 afew
 android-sdk
+ansible
 ant
 ant-contrib
 autoconf
@@ -37,7 +38,6 @@ gmp
 gnupg2
 gnutls
 gpg-agent
-gpgme
 gradle
 graphviz
 grc
