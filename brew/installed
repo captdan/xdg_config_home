@@ -97,6 +97,7 @@ pth
 pup
 pyenv
 python
+python3
 qt5
 rbenv
 rdiff-backup
@@ -118,6 +119,7 @@ the_silver_searcher
 thefuck
 tmux
 unison
+vdirsyncer
 w3m
 watch
 wget
