@@ -9,6 +9,7 @@ bash
 bdw-gc
 bison
 brew-cask
+check
 chruby
 cmake
 coreutils
@@ -60,8 +61,10 @@ libgcrypt
 libgpg-error
 libksba
 libmagic
+libotr
 libpng
 librsync
+libstrophe
 libtasn1
 libtiff
 libtool
@@ -96,6 +99,7 @@ pinentry
 pipes-sh
 pkg-config
 popt
+profanity
 pth
 pup
 pyenv
@@ -126,6 +130,7 @@ unison
 vdirsyncer
 w3m
 watch
+weechat
 wget
 x11vnc
 x264
