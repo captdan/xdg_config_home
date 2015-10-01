@@ -6,6 +6,10 @@ inoremap jj <ESC>
 nnoremap j t
 nnoremap t j
 
+" use space and ctrl-space as forward/backward search
+map <space> /
+map <c-space> ?
+
 " gui settings
 if (&t_Co == 256 || has('gui_running'))
   if ($TERM_PROGRAM == 'iTerm.app')
@@ -36,11 +40,6 @@ silent! autocmd VimEnter * RemoveConflictingAlignMaps
 " configure unknown filetypes
 " .logcat-config is python
 autocmd BufRead,BufNewFile *.logcat-config set filetype=python
-
-let g:zv_zeal_directory = "/usr/local/bin/zeal"
-let g:zv_added_files_type = {
-  \ 'java' : 'Java_SE8',
-  \ }
 
 let g:syntastic_java_javac_custom_classpath_command = "brazil path testlib.classpath | gawk 'BEGIN {RS=\":\"} {print $1;}'"
 
