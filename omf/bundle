@@ -4,7 +4,6 @@ package pyenv
 package gem
 package mvn
 package https://github.com/oh-my-fish/plugin-pyenv
-package rbenv
 package osx_manpath
 package thefuck
 package gi
@@ -32,3 +31,4 @@ package dircolors
 theme taktoa
 package xdg
 package localhost
+package rbenv
