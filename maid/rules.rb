@@ -9,11 +9,15 @@
 # * Ask me a question over email (hello@benjaminoakes.com) or Twitter (@benjaminoakes)
 # * Check out how others are using Maid in [the Maid wiki](https://github.com/benjaminoakes/maid/wiki)
 Maid.rules do
+  rule 'Backing up Mail' do
+    `rdiff-backup ~/.local/share/mail ~/.local/backup/mail`
+  end
+
   rule 'Updating Gems' do
     `gem update`
   end
 
-  rule 'Cleaning Gems' do 
+  rule 'Cleaning Gems' do
     `gem cleanup`
   end
 
