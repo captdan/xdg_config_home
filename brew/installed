@@ -78,6 +78,7 @@ makedepend
 markdown
 maven
 mercurial
+mobile-shell
 msmtp
 mysql
 ncurses
@@ -98,7 +99,7 @@ pinentry
 pipes-sh
 pkg-config
 popt
-profanity
+protobuf
 pth
 pup
 pyenv
