@@ -4,6 +4,9 @@ ant
 ant-contrib
 autoconf
 automake
+avr-binutils
+avr-gcc
+avr-libc
 awscli
 bash
 bdw-gc
@@ -11,6 +14,7 @@ bison
 brew-cask
 check
 chruby
+cloog
 cmake
 coreutils
 cowsay
@@ -46,6 +50,7 @@ html-xml-utils
 htop-osx
 httpie
 imagemagick
+isl
 jpeg
 jq
 khal
@@ -60,6 +65,7 @@ libgcrypt
 libgpg-error
 libksba
 libmagic
+libmpc
 libotr
 libpng
 librsync
@@ -79,6 +85,7 @@ markdown
 maven
 mercurial
 mobile-shell
+mpfr
 msmtp
 mysql
 ncurses
