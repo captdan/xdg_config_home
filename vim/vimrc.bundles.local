@@ -1,4 +1,5 @@
-Bundle 'plasticboy/vim-markdown'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 Bundle 'xu-cheng/brew.vim'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'bling/vim-airline'
