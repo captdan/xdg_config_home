@@ -30,3 +30,9 @@ vim/bundle
 vim/plugin
 vim/snippets
 vim/eclim
+vdirsyncer
+khal
+khard
+ninja-dev-sync
+gnupg
+unison
