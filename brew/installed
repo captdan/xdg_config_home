@@ -83,6 +83,7 @@ macvim
 makedepend
 markdown
 maven
+mdp
 mercurial
 mobile-shell
 mpfr
@@ -94,10 +95,10 @@ nettle
 node
 nvm
 nyancat
-offline-imap
 oniguruma
 openssl
 p7zip
+pandoc
 pcre
 perforce
 pidcat
@@ -114,6 +115,7 @@ python
 python3
 qt5
 rbenv
+rdesktop
 rdiff-backup
 readline
 reattach-to-user-namespace
@@ -133,7 +135,6 @@ the_silver_searcher
 thefuck
 tmux
 todo-txt
-unison
 vdirsyncer
 w3m
 watch
