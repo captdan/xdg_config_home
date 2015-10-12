@@ -36,6 +36,7 @@ gawk
 gcc-arm-none-eabi-49
 gdbm
 gettext
+ghc
 git
 glib
 gmime
