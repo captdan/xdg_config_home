@@ -33,6 +33,7 @@ fish
 fortune
 freetype
 gawk
+gcc
 gcc-arm-none-eabi-49
 gdbm
 gettext
@@ -144,6 +145,7 @@ wiki
 x11vnc
 x264
 xapian
+xstow
 xvid
 xz
 yasm
