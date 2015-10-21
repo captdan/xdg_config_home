@@ -26,6 +26,7 @@ dialog
 dirmngr
 doxygen
 exiftool
+expat
 faac
 fasd
 fetchmail
@@ -99,6 +100,7 @@ nvm
 nyancat
 oniguruma
 openssl
+ossp-uuid
 p7zip
 pandoc
 pcre
