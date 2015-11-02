@@ -12,6 +12,7 @@ bash
 bdw-gc
 bison
 brew-cask
+cabal-install
 check
 chruby
 cloog
