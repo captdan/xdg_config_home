@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>GEM_HOME</key>
+		<string>/usr/local/var/gem</string>
+		<key>GEM_ROOT</key>
+		<string>/usr/local/var/gem</string>
+		<key>PATH</key>
+		<string>/Users/dbburnet/.local/bin:/usr/local/var/rbenv/shims:/usr/local/var/gem/bin:/usr/local/bin:/usr/bin:/bin</string>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>local.job</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/var/gem/bin/maid</string>
+		<string>daemon</string>
+		<string>-r</string>
+		<string>/Users/dbburnet/.config/maid/daemon.rb</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/tmp/local.job.err</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/local.job.out</string>
+</dict>
+</plist>
