@@ -1,15 +1,12 @@
 .gitwork
 eink
-
 fish/fish_history
 fish/fish_read_history
 fish/fishd.685b35aa345a
 fish/functions/work/
 private_config.fish
 work_config.fish
-
 git/work_config
-
 *.pyc
 logcat-color
 offlineimap
@@ -33,7 +30,6 @@ vdirsyncer
 khal
 khard
 ninja-dev-sync
-gnupg
 unison
 finicky
 davmail
