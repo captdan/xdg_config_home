@@ -12,7 +12,6 @@ git/work_config
 
 *.pyc
 logcat-color
-maid/work.rb
 offlineimap
 p4
 workgitignore
