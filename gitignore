@@ -36,3 +36,5 @@ davmail
 ninja-dev-sync.json
 profanity/themes
 ssh
+*.gpg
+random_seed
