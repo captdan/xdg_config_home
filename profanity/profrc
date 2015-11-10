@@ -1,0 +1,73 @@
+[notifications]
+room=on
+room.text=true
+message.text=true
+
+[ui]
+beep=true
+history=true
+enc.warn=true
+flash=true
+theme=original_bright
+splash=true
+wrap=true
+wins.autotidy=true
+time.console=%H:%M:%S
+time.chat=%d/%m/%y %H:%M:%S
+time.muc=%d/%m/%y %H:%M:%S
+time.mucconfig=off
+time.private=%d/%m/%y %H:%M:%S
+time.xmlconsole=%d/%m/%y %H:%M:%S
+time.statusbar=%H:%M:%S
+resource.title=true
+resource.message=true
+statuses.console=all
+statuses.chat=all
+statuses.muc=all
+occupants=true
+occupants.size=15
+roster=true
+roster.offline=true
+roster.resource=false
+roster.empty=true
+roster.by=presence
+roster.size=25
+privileges=true
+presence=true
+intype=true
+tls.show=true
+occupants.jid=false
+time.lastactivity=%d/%m/%y %H:%M:%S
+titlebar.show=true
+titlebar.goodbye=true
+vercheck=true
+
+[connection]
+account=hipchat
+receipts.request=true
+receipts.send=true
+reconnect=5
+
+[alias]
+q=/quit
+a=/away "I'm not here right now"
+
+[presence]
+autoaway.mode=away
+autoaway.awaymessage=I'm not here right now
+autoaway.xamessage=...
+autoaway.xatime=60
+
+[logging]
+chlog=true
+grlog=true
+
+[chatstates]
+outtype=true
+enabled=true
+
+[otr]
+otr.char=@
+
+[pgp]
+pgp.char=%
