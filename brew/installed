@@ -11,6 +11,7 @@ awscli
 bash
 bdw-gc
 bison
+brazil-cli
 brew-cask
 cabal-install
 check
@@ -37,6 +38,7 @@ fish
 flac
 fortune
 freetype
+fswatch
 gawk
 gcc
 gcc-arm-none-eabi-49
@@ -107,6 +109,7 @@ mysql
 ncurses
 neovim
 nettle
+ninja-dev-sync
 node
 nvm
 nyancat
@@ -123,6 +126,7 @@ pinentry
 pipes-sh
 pkg-config
 popt
+post-review
 protobuf
 pth
 pup
@@ -139,6 +143,7 @@ repo
 ruby
 screen
 sdl
+serve
 socat
 sqlite
 ssh-copy-id
