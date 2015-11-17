@@ -19,6 +19,9 @@
     ~/.config/omf: omf/
     ~/.config/planck: planck/
     ~/.config/profanity: profanity/
+    ~/.config/ssh/gitssh:
+      path: ssh/gitssh
+      create: true
     ~/.config/thefuck: thefuck/
     ~/.config/todo-txt: todo-txt/
     ~/.config/vim: vim/
