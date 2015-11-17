@@ -3,3 +3,4 @@ fishd.685b35aa345a
 fish/functions/work
 work_config*
 *.gpg
+*.pyc
