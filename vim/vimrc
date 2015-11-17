@@ -1,3 +1,10 @@
+" force xdg compatibility
+set rtp=$XDG_CONFIG_HOME/vim,$XDG_CONFIG_HOME/vim/after,$VIM,$VIMRUNTIME
+set undodir=$XDG_DATA_HOME/vim/undo
+set viewdir=$XDG_DATA_HOME/vim/view
+set viminfo+=n$XDG_DATA_HOME/vim/hist
+let g:netrw_home = expand('$XDG_DATA_HOME/vim/netrw')
+
 " don't bother with vi compatibility
 set nocompatible
 
