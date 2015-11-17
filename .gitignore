@@ -4,3 +4,4 @@ fish/functions/work
 work_config*
 *.gpg
 *.pyc
+omf/hosts
