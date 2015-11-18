@@ -18,7 +18,6 @@
     ~/.config/npm: npm/
     ~/.config/omf: omf/
     ~/.config/planck: planck/
-    ~/.config/profanity: profanity/
     ~/.config/ssh/gitssh:
       path: ssh/gitssh
       create: true
