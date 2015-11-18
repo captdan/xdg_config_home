@@ -69,12 +69,12 @@ Maid.rules do
 
     rule 'Log brew installed packages' do
       `brew ls > ~/.config/brew/installed`
-      `git --git-dir=/Users/dbburnet/.config/.git --work-tree=/Users/dbburnet/.config commit -m 'Updating list of installed packages' brew/installed`
+      `git --git-dir=/Users/dbburnet/.dotfiles/personal/.git --work-tree=/Users/dbburnet/.dotfiles/personal commit -m 'Updating list of installed packages' brew/installed`
     end
 
     rule 'Log brew cask installed packages' do
       `brew cask ls > ~/.config/brew/cask_installed`
-      `git --git-dir=/Users/dbburnet/.config/.git --work-tree=/Users/dbburnet/.config commit -m 'Updating list of installed casks' brew/cask_installed`
+      `git --git-dir=/Users/dbburnet/.dotfiles/personal/.git --work-tree=/Users/dbburnet/.dotfiles/personal commit -m 'Updating list of installed casks' brew/cask_installed`
     end
   end
 end
