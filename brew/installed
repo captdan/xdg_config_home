@@ -179,6 +179,7 @@ readline
 reattach-to-user-namespace
 repo
 ruby
+ruby-build
 screen
 sdl
 serve
