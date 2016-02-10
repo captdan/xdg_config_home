@@ -1,9 +1,9 @@
-#include "extended_keymap_common.h"
+#include "keymap_common.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [0] = { /* Workman */
   {KC_TRNS, KC_Q,    KC_D,      KC_R,       KC_W,       KC_B,    KC_J,    KC_F,       KC_U,      KC_P,       KC_SCLN,    KC_TRNS},
-  {KC_TRNS, KC_A,    KC_S,      KC_H,       KC_T,       KC_G,    KC_Y,    KC_N,       KC_E,      KC_O,       KC_I,       KC_ENT},
+  {KC_TRNS, KC_A,    KC_S,      KC_H,       KC_T,       KC_G,    KC_Y,    KC_N,       KC_E,      KC_O,       KC_I,       KC_TRNS},
   {KC_TRNS, KC_Z,    KC_X,      KC_M,       KC_C,       KC_V,    KC_K,    KC_L,       KC_COMM,   KC_DOT,     KC_SLSH,    KC_TRNS},
   {FUNC(3), KC_LSFT, KC_LCTL,   KC_LGUI,    FUNC(1),    KC_SPC,  KC_SPC,  FUNC(2),    KC_RGUI,   KC_RALT,    KC_RSFT,    KC_TRNS}
                                                 // Space is repeated to accommadate for both spacebar wiring positions
@@ -29,9 +29,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const uint16_t PROGMEM fn_actions[] = {
-    [1] = ACTION_LAYER_TAP_TOGGLE(2), // LOWER
-    [2] = ACTION_LAYER_TAP_TOGGLE(3), // RAISE
-    [3] = ACTION_LAYER_TAP_TOGGLE(4)  // ARROWS
+    [1] = ACTION_LAYER_TAP_KEY(2, KC_BSPC), // LOWER
+    [2] = ACTION_LAYER_TAP_KEY(3, KC_ENT), // RAISE
+    [3] = ACTION_LAYER_TAP_KEY(4, KC_DEL)  // ARROWS
 };
 
 const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
