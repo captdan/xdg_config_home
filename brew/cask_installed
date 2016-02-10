@@ -1,10 +1,11 @@
 adium
-adium-nightly16
+adium-nightly16 (!)
 airmail-beta
 alfred
 android-file-transfer
 anki
 anybar
+atom-beta
 basictex
 caffeine
 davmail
@@ -12,16 +13,17 @@ dropbox-experimental
 eclipse-java
 evernote
 firefox
+flickr-uploadr
 flux-beta
-font-anonymous-pro-for-powerline
-font-inconsolata-for-powerline
-font-source-code-pro-for-powerline
+font-anonymous-pro-for-powerline (!)
+font-inconsolata-for-powerline (!)
+font-source-code-pro-for-powerline (!)
 google-chrome-beta
 intellij-idea-ce
 iterm2-nightly
 java
 launchcontrol
-mailbox
+mailbox (!)
 mojibar
 notational-velocity
 omnigraffle
@@ -34,7 +36,10 @@ sequel-pro-nightly
 silverlight
 slate
 spectacle
+spotify
+spotify-notifications
 steam
 techstoreclub-simple-comic
+vlc-nightly
 xquartz-beta
 ynab

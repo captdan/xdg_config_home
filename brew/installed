@@ -1,4 +1,3 @@
-afew
 android-sdk
 ant
 ant-contrib
@@ -32,6 +31,7 @@ dfu-util
 dialog
 dirmngr
 doxygen
+emacs-mac
 exiftool
 expat
 faac
@@ -195,7 +195,6 @@ teensy_loader_cli
 terminal-notifier
 texi2html
 the_silver_searcher
-thefuck
 theora
 tmux
 todo-txt
@@ -203,13 +202,11 @@ two-lame
 vala
 w3m
 watch
-weechat
 wget
 wiki
 x11vnc
 x264
 xapian
-xstow
 xvid
 xz
 yasm
