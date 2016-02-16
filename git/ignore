@@ -21,3 +21,4 @@ Temporary Items
 
 # Intellij project files
 *.iml
+.localized
