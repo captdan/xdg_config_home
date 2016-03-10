@@ -16,7 +16,6 @@
     ~/.config/httpie: httpie/
     ~/.config/maid: maid/
     ~/.config/npm: npm/
-    ~/.config/omf: omf/
     ~/.config/planck: planck/
     ~/.config/ssh/gitssh:
       path: ssh/gitssh
