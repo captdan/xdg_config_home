@@ -22,3 +22,4 @@ Temporary Items
 # Intellij project files
 *.iml
 .localized
+api_keys.fish
