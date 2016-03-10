@@ -35,6 +35,6 @@ set -x PATH $HOME/.local/bin $PATH
 #Source work functions
 set fish_function_path $XDG_CONFIG_HOME/fish/functions/work $fish_function_path
 
-source $HOME/.config/fish/work_config.fish
- set -x HOMEBREW_GITHUB_API_TOKEN 4b4b1e04542795d1f0da806d0512f78f660051b3
+source $XDG_CONFIG_HOME/fish/api_keys.fish
+source $XDG_CONFIG_HOME/fish/work_config.fish
 set -x ANDROID_HOME /usr/local/opt/android-sdk
